@@ -60,16 +60,28 @@ brew install openjdk
 2. Extract the files to your desired directory
 3. Ensure all files are in the same directory:
    - `WaveshareCANTool-executable.jar`
-   - `WaveshareCANTool.bat` (Windows)
+   - `WaveshareCANTool.bat` (Windows standard)
+   - `WaveshareCANTool-Admin.bat` (Windows with admin privileges)
    - `WaveshareCANTool.sh` (Linux/macOS)
+   - `Windows-COM-Diagnostic.bat` (Windows diagnostic tool)
    - `README.md`
 
 ## Usage
 
 ### Windows
-Double-click `WaveshareCANTool.bat` or run from command prompt:
+**Recommended**: Use admin mode for COM port access:
+```cmd
+WaveshareCANTool-Admin.bat
+```
+
+**Alternative**: Standard mode (may have COM port issues):
 ```cmd
 WaveshareCANTool.bat
+```
+
+**Diagnostic**: Check COM port issues:
+```cmd
+Windows-COM-Diagnostic.bat
 ```
 
 ### Linux/macOS
@@ -182,10 +194,26 @@ Then log out and log back in.
 ❌ Application failed to start!
 ```
 **Solutions**:
-1. Run as administrator (Windows)
+1. Run as administrator (Windows) - Use `WaveshareCANTool-Admin.bat`
 2. Check antivirus settings
 3. Verify Java installation: `java -version`
 4. Test JAR file integrity: `java -jar WaveshareCANTool-executable.jar --help`
+
+#### Windows COM Port Issues
+```
+❌ COM port access denied or "device not working properly"
+```
+**Windows-Specific Solutions**:
+1. **Install CH340 Driver**: Download from [CH340 Official](https://www.wch.cn/downloads/CH341SER_ZIP.html)
+2. **Run Diagnostic**: Use `Windows-COM-Diagnostic.bat` for system analysis
+3. **Check Device Manager**: Look for yellow warning triangles in "Ports (COM & LPT)"
+4. **Use Admin Mode**: Always run `WaveshareCANTool-Admin.bat` as Administrator
+5. **Restart System**: After driver installation, restart Windows completely
+
+#### macOS vs Windows Differences
+- **macOS**: Uses `/dev/tty.usbserial-*` with standard user permissions
+- **Windows**: Uses `COM1-COM20` requiring CH340 driver + admin permissions
+- **Linux**: Uses `/dev/ttyUSB*` with dialout group permissions
 
 #### Read Timeout Errors
 ```

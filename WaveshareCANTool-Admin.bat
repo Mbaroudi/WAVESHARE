@@ -1,19 +1,33 @@
 @echo off
-title Waveshare CAN Tool - Professional Configuration Suite
+title Waveshare CAN Tool - Administrator Mode
 color 0A
 
 echo.
 echo ================================================================
-echo   🚀 Waveshare CAN Tool - Professional Configuration Suite
+echo   🚀 Waveshare CAN Tool - Administrator Mode
 echo ================================================================
+echo   ⚠️  Running with elevated privileges for COM port access
 echo   ✅ Real serial communication with hardware validation
 echo   ✅ Advanced CAN configuration with all parameters
 echo   ✅ JSON parameter management (save/load/apply)
-echo   ✅ Transparent mode handling with smart fallback
-echo   ✅ Multi-protocol support (OBD-II, J1939, ISO-TP, UDS)
-echo   ✅ Cross-platform compatibility (Windows/Linux/macOS)
+echo   ✅ Windows CH340 driver compatibility
 echo ================================================================
 echo.
+
+REM Check if running as administrator
+net session >nul 2>&1
+if %errorLevel% == 0 (
+    echo ✅ Administrator privileges detected
+) else (
+    echo ❌ Administrator privileges required for COM port access
+    echo.
+    echo Please run this script as Administrator:
+    echo 1. Right-click on this file
+    echo 2. Select "Run as administrator"
+    echo.
+    pause
+    exit /b 1
+)
 
 REM Check if Java is available
 java -version >nul 2>&1
@@ -39,11 +53,11 @@ if not exist "WaveshareCANTool-executable.jar" (
     exit /b 1
 )
 
-echo ✅ Java found - launching application...
+echo ✅ Java found - launching application with admin privileges...
 echo.
 
-REM Launch the application with Windows-specific permissions
-java -Djava.library.path=. -Dfile.encoding=UTF-8 -jar WaveshareCANTool-executable.jar
+REM Launch the application with Windows-specific settings
+java -Djava.library.path=. -Dfile.encoding=UTF-8 -Djava.security.policy=all.policy -jar WaveshareCANTool-executable.jar
 
 REM Check if launch was successful
 if errorlevel 1 (
@@ -51,10 +65,11 @@ if errorlevel 1 (
     echo ❌ Application failed to start!
     echo.
     echo Possible solutions:
-    echo 1. Try running as administrator
-    echo 2. Check if antivirus is blocking the application
+    echo 1. Install CH340 driver: https://www.wch.cn/downloads/CH341SER_ZIP.html
+    echo 2. Check Device Manager for COM port conflicts
     echo 3. Verify Java installation: java -version
-    echo 4. Check if JAR file is corrupted
+    echo 4. Try disconnecting and reconnecting USB device
+    echo 5. Check if another application is using the COM port
     echo.
     pause
     exit /b 1
