@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Waveshare CAN Tool
+Comment=Configuration tool for Waveshare RS232/485/422 to CAN converter
+Exec=java -jar %f
+Icon=waveshare-can-tool
+Terminal=false
+Type=Application
+Categories=Development;Electronics;
+MimeType=application/x-java-archive;

@@ -1,0 +1,34 @@
+{
+  "automotive": {
+    "uart_baud": 115200,
+    "can_baud": 500000,
+    "work_mode": "WorkMode.TRANSPARENT",
+    "frame_type": "FrameType.STANDARD",
+    "filter_id": 0,
+    "filter_mask": 0
+  },
+  "industrial_automation": {
+    "uart_baud": 115200,
+    "can_baud": 250000,
+    "work_mode": "WorkMode.TRANSPARENT_WITH_ID",
+    "frame_type": "FrameType.STANDARD",
+    "filter_id": 256,
+    "filter_mask": 1792
+  },
+  "heavy_machinery": {
+    "uart_baud": 57600,
+    "can_baud": 125000,
+    "work_mode": "WorkMode.TRANSPARENT",
+    "frame_type": "FrameType.EXTENDED",
+    "filter_id": 6144,
+    "filter_mask": 7936
+  },
+  "marine_systems": {
+    "uart_baud": 38400,
+    "can_baud": 250000,
+    "work_mode": "WorkMode.TRANSPARENT",
+    "frame_type": "FrameType.STANDARD",
+    "filter_id": 0,
+    "filter_mask": 0
+  }
+}

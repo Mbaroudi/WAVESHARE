@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: com.waveshare.cantool.WaveshareCANTool
+Class-Path: jSerialComm-2.10.4.jar
+Implementation-Title: Waveshare CAN Tool
+Implementation-Version: 1.0
+Implementation-Vendor: WS-CAN-TOOL Expert
+Created-By: WS-CAN-TOOL Expert
+Application-Name: Waveshare CAN Configuration Tool
+Permissions: all-permissions
+Codebase: *

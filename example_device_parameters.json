@@ -1,0 +1,60 @@
+{
+  "waveshare_device_parameters": {
+    "timestamp": "Wed Jul 09 15:55:00 CET 2025",
+    "version": "1.0",
+    "generated_by": "Waveshare CAN Tool Expert",
+    "device_info": {
+      "model": "Waveshare RS232/485/422 to CAN",
+      "version": "1.0",
+      "serial_number": "WS-CAN-001234",
+      "firmware_version": "FW1.2.3",
+      "hardware_version": "HW1.0"
+    },
+    "uart_config": {
+      "baud_rate": 115200,
+      "data_bits": 8,
+      "stop_bits": 1,
+      "parity": "N",
+      "flow_control": "none",
+      "timeout": 2000,
+      "buffer_size": 8192
+    },
+    "can_config": {
+      "baud_rate": 500000,
+      "frame_type": "standard",
+      "can_id": "0x123",
+      "filter_id": "0x7E0",
+      "mask_id": "0x7F0",
+      "accept_all": false,
+      "enable_filters": true
+    },
+    "working_mode": {
+      "mode": "transparent",
+      "mode_id": 0,
+      "direction": "bidirectional",
+      "frame_length": 8,
+      "id_offset": 0,
+      "data_format": "raw"
+    },
+    "performance": {
+      "target_rate": 83,
+      "max_latency": 12,
+      "buffer_mode": "auto",
+      "optimization": "high_performance"
+    },
+    "protocol": {
+      "protocol_type": "obd2",
+      "obd2_enabled": true,
+      "j1939_enabled": false,
+      "isotp_enabled": true,
+      "uds_enabled": false
+    },
+    "status": {
+      "connected": true,
+      "last_update": "Wed Jul 09 15:55:00 CET 2025",
+      "error_count": 0,
+      "frame_count": 12345,
+      "uptime": 7200
+    }
+  }
+}

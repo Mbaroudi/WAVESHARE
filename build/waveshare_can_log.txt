@@ -1,0 +1,198 @@
+[15:37:34.642] Tentative de connexion au port: /dev/ttyUSB0
+[15:37:34.967] ✗ Port /dev/ttyUSB0 introuvable
+[15:37:43.181] Tentative de connexion au port: /dev/ttyUSB1
+[15:37:43.227] ✗ Port /dev/ttyUSB1 introuvable
+[15:37:52.402] Tentative de connexion au port: /dev/tty.usbserial-1140
+[15:37:52.444] ✗ Port /dev/tty.usbserial-1140 introuvable
+[15:38:04.412] Tentative de connexion au port: /dev/tty.usbserial-1140
+[15:38:04.457] ✗ Port /dev/tty.usbserial-1140 introuvable
+[15:38:08.517] Actualisation des ports...
+[15:38:08.520] Port détecté: cu.debug-console - debug-console
+[15:38:08.520] Port détecté: tty.debug-console - debug-console (Dial-In)
+[15:38:08.520] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[15:38:08.521] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[15:38:08.521] Port détecté: cu.usbserial-1120 - USB2.0-Ser!
+[15:38:08.521] Port détecté: tty.usbserial-1120 - USB2.0-Ser! (Dial-In)
+[15:38:08.522] ✓ 6 ports série détectés
+[15:38:10.721] Actualisation des ports...
+[15:38:10.723] Port détecté: cu.debug-console - debug-console
+[15:38:10.723] Port détecté: tty.debug-console - debug-console (Dial-In)
+[15:38:10.723] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[15:38:10.723] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[15:38:10.723] Port détecté: cu.usbserial-1120 - USB2.0-Ser!
+[15:38:10.723] Port détecté: tty.usbserial-1120 - USB2.0-Ser! (Dial-In)
+[15:38:10.724] ✓ 6 ports série détectés
+[15:38:11.054] Actualisation des ports...
+[15:38:11.055] Port détecté: cu.debug-console - debug-console
+[15:38:11.055] Port détecté: tty.debug-console - debug-console (Dial-In)
+[15:38:11.055] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[15:38:11.055] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[15:38:11.056] Port détecté: cu.usbserial-1120 - USB2.0-Ser!
+[15:38:11.056] Port détecté: tty.usbserial-1120 - USB2.0-Ser! (Dial-In)
+[15:38:11.056] ✓ 6 ports série détectés
+[15:38:11.265] Actualisation des ports...
+[15:38:11.267] Port détecté: cu.debug-console - debug-console
+[15:38:11.268] Port détecté: tty.debug-console - debug-console (Dial-In)
+[15:38:11.268] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[15:38:11.269] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[15:38:11.269] Port détecté: cu.usbserial-1120 - USB2.0-Ser!
+[15:38:11.269] Port détecté: tty.usbserial-1120 - USB2.0-Ser! (Dial-In)
+[15:38:11.269] ✓ 6 ports série détectés
+[15:38:11.457] Actualisation des ports...
+[15:38:11.458] Port détecté: cu.debug-console - debug-console
+[15:38:11.458] Port détecté: tty.debug-console - debug-console (Dial-In)
+[15:38:11.458] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[15:38:11.458] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[15:38:11.458] Port détecté: cu.usbserial-1120 - USB2.0-Ser!
+[15:38:11.458] Port détecté: tty.usbserial-1120 - USB2.0-Ser! (Dial-In)
+[15:38:11.459] ✓ 6 ports série détectés
+[15:38:11.656] Actualisation des ports...
+[15:38:11.659] Port détecté: cu.debug-console - debug-console
+[15:38:11.659] Port détecté: tty.debug-console - debug-console (Dial-In)
+[15:38:11.659] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[15:38:11.659] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[15:38:11.660] Port détecté: cu.usbserial-1120 - USB2.0-Ser!
+[15:38:11.660] Port détecté: tty.usbserial-1120 - USB2.0-Ser! (Dial-In)
+[15:38:11.660] ✓ 6 ports série détectés
+[15:38:11.872] Actualisation des ports...
+[15:38:11.874] Port détecté: cu.debug-console - debug-console
+[15:38:11.874] Port détecté: tty.debug-console - debug-console (Dial-In)
+[15:38:11.874] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[15:38:11.875] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[15:38:11.875] Port détecté: cu.usbserial-1120 - USB2.0-Ser!
+[15:38:11.875] Port détecté: tty.usbserial-1120 - USB2.0-Ser! (Dial-In)
+[15:38:11.875] ✓ 6 ports série détectés
+[15:38:24.402] Tentative de connexion au port: tty.usbserial-1120
+[15:38:24.409] 🔍 Test de communication avec le périphérique...
+[15:38:24.432] ✓ Connexion réussie au port: tty.usbserial-1120
+[15:38:24.432] ✓ Configuration: 115200 baud, 8N1
+[15:38:25.916] ⚠ Test communication: The read operation timed out before any data was returned.
+[15:38:35.595] Application de la configuration:
+[15:38:35.596]   UART: 115200 bps
+[15:38:35.596]   CAN: 500000 bps
+[15:38:35.596]   Mode: Transparent
+[15:38:35.598] 📤 Commande envoyée: AT+UART=115200,8,1,0,0
+[15:38:35.700] 📤 Commande envoyée: AT+CAN=500000
+[15:38:35.805] 📤 Commande envoyée: AT+MODE=0
+[15:38:35.911] 📤 Commande envoyée: AT+SAVE
+[15:38:36.418] ✓ Configuration appliquée avec succès
+[15:38:46.329] Réinitialisation du périphérique...
+[15:38:48.339] ✓ Périphérique réinitialisé
+[15:39:01.680] Trame envoyée: TX: ID=0x123 Data=01 02 03 04 05 06 07 08
+[15:39:09.504] === MONITORING DÉMARRÉ ===
+[15:39:16.948] === TEST OBD-II ===
+[15:39:16.949] Requête OBD-II envoyée: Régime moteur
+[15:39:17.459] Réponse OBD-II reçue: RPM = 1726
+[15:39:24.636] === TEST ECU ===
+[15:39:24.947] Test ECU terminé: 3 trames envoyées
+[15:39:28.786] === TEST AUTOMATIQUE ===
+[15:39:33.866] Test automatique terminé
+[15:39:45.219] === DIAGNOSTIC SYSTÈME ===
+[15:39:50.188] === CONFIGURATION EXPERT ===
+[15:39:52.425] Configuration expert terminée avec succès
+[15:40:13.874] Réinitialisation du périphérique...
+[15:40:15.882] ✓ Périphérique réinitialisé
+[15:40:18.560] Configuration automobile chargée:
+[15:40:18.560]   UART: 115200 bps (optimal automobile)
+[15:40:18.560]   CAN: 500000 bps (standard automobile)
+[15:40:18.560]   Mode: Transparent (performance maximale)
+[15:40:32.082] === MONITORING ARRÊTÉ ===
+[15:40:38.732] === INFORMATIONS PÉRIPHÉRIQUE ===
+[15:40:43.361] === ANALYSE PROTOCOLE ===
+[15:41:49.731] ✓ Port série fermé
+[15:41:49.732] ✓ Périphérique déconnecté
+[15:50:56.536] Actualisation des ports...
+[15:50:56.696] Port détecté: cu.debug-console - debug-console
+[15:50:56.696] Port détecté: tty.debug-console - debug-console (Dial-In)
+[15:50:56.696] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[15:50:56.697] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[15:50:56.697] Port détecté: cu.usbserial-1120 - USB2.0-Ser!
+[15:50:56.697] Port détecté: tty.usbserial-1120 - USB2.0-Ser! (Dial-In)
+[15:50:56.697] ✓ 6 ports série détectés
+[15:51:20.648] Tentative de connexion au port: tty.usbserial-1120
+[15:51:20.657] 🔍 Test de communication avec le périphérique...
+[15:51:20.709] ✓ Connexion réussie au port: tty.usbserial-1120
+[15:51:20.709] ✓ Configuration: 115200 baud, 8N1
+[15:51:22.164] ⚠ Test communication: The read operation timed out before any data was returned.
+[15:52:29.345] === APPLICATION CONFIGURATION AVANCÉE ===
+[15:52:29.348] 📤 Commande envoyée: AT+FRAME=STD
+[15:52:29.454] 📤 Commande envoyée: AT+ID=123
+[15:52:29.559] 📤 Commande envoyée: AT+MODE=0
+[15:52:29.664] 📤 Commande envoyée: AT+DIR=BOTH
+[15:52:29.770] 📤 Commande envoyée: AT+LEN=8
+[15:52:29.875] 📤 Commande envoyée: AT+PERF=83
+[15:52:29.981] 📤 Commande envoyée: AT+SAVE
+[15:52:30.488] ✓ Configuration avancée appliquée avec succès
+[15:52:30.488] ✓ Frame Type: STD
+[15:52:30.488] ✓ Mode: 0
+[15:52:30.488] ✓ Direction: BOTH
+[15:52:30.489] ✓ Frame Length: 8
+[15:52:30.489] ✓ Performance: 83 Hz
+[15:52:41.144] Application de la configuration:
+[15:52:41.147]   UART: 115200 bps
+[15:52:41.147]   CAN: 500000 bps
+[15:52:41.147]   Mode: Transparent
+[15:52:41.148] 📤 Commande envoyée: AT+UART=115200,8,1,0,0
+[15:52:41.253] 📤 Commande envoyée: AT+CAN=500000
+[15:52:41.359] 📤 Commande envoyée: AT+MODE=0
+[15:52:41.464] 📤 Commande envoyée: AT+SAVE
+[15:52:41.969] ✓ Configuration appliquée avec succès
+[15:57:54.711] Actualisation des ports...
+[15:57:54.720] Port détecté: cu.debug-console - debug-console
+[15:57:54.720] Port détecté: tty.debug-console - debug-console (Dial-In)
+[15:57:54.720] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[15:57:54.720] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[15:57:54.720] Port détecté: cu.usbserial-1120 - USB2.0-Ser!
+[15:57:54.720] Port détecté: tty.usbserial-1120 - USB2.0-Ser! (Dial-In)
+[15:57:54.721] ✓ 6 ports série détectés
+[15:57:59.413] Tentative de connexion au port: tty.usbserial-1120
+[15:57:59.420] 🔍 Test de communication avec le périphérique...
+[15:57:59.454] ✓ Connexion réussie au port: tty.usbserial-1120
+[15:57:59.454] ✓ Configuration: 115200 baud, 8N1
+[15:58:00.926] ⚠ Test communication: The read operation timed out before any data was returned.
+[15:58:15.792] === LECTURE DES PARAMÈTRES PÉRIPHÉRIQUE ===
+[15:58:15.794] 📤 Commande envoyée: AT+UART?
+[15:58:16.796] ✗ Erreur lecture paramètres: The read operation timed out before any data was returned.
+[15:58:25.252] Device parameters display refreshed
+[15:58:25.801] Device parameters display refreshed
+[15:58:27.047] Device parameters display refreshed
+[15:58:27.256] Device parameters display refreshed
+[15:58:28.142] Device parameters display refreshed
+[15:58:33.497] === LECTURE DES PARAMÈTRES PÉRIPHÉRIQUE ===
+[15:58:33.499] 📤 Commande envoyée: AT+UART?
+[15:58:34.501] ✗ Erreur lecture paramètres: The read operation timed out before any data was returned.
+[15:59:53.969] ✓ Port série fermé
+[15:59:53.970] ✓ Périphérique déconnecté
+[16:03:43.763] Actualisation des ports...
+[16:03:43.984] Port détecté: cu.debug-console - debug-console
+[16:03:43.984] Port détecté: tty.debug-console - debug-console (Dial-In)
+[16:03:43.985] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[16:03:43.985] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[16:03:43.985] Port détecté: cu.usbserial-1120 - USB2.0-Ser!
+[16:03:43.985] Port détecté: tty.usbserial-1120 - USB2.0-Ser! (Dial-In)
+[16:03:43.985] ✓ 6 ports série détectés
+[16:03:48.961] Tentative de connexion au port: tty.usbserial-1120
+[16:03:48.970] 🔍 Test de communication avec le périphérique...
+[16:03:49.024] ✓ Connexion réussie au port: tty.usbserial-1120
+[16:03:49.024] ✓ Configuration: 115200 baud, 8N1
+[16:03:51.978] ⚠ Périphérique en mode transparent (normal pour Waveshare)
+[16:03:51.979] ℹ Pour lire les paramètres, essayez de passer en mode configuration
+[16:03:56.876] === LECTURE DES PARAMÈTRES PÉRIPHÉRIQUE ===
+[16:03:56.877] 🔍 Vérification du mode du périphérique...
+[16:03:59.895] ⚠ Périphérique en mode transparent - tentative de basculement...
+[16:04:02.001] ℹ Périphérique reste en mode transparent
+[16:04:02.002] ✓ Communication série établie
+[16:04:02.002] ✓ Périphérique prêt pour utilisation
+[16:04:09.926] ℹ Impossible de passer en mode configuration
+[16:04:09.926] ℹ Utilisation des paramètres par défaut ou précédents
+[16:04:09.926] ✓ Paramètres d'interface utilisés comme source
+[16:04:09.929] ✓ Paramètres d'interface utilisés (mode transparent)
+[16:04:29.205] === LECTURE DES PARAMÈTRES PÉRIPHÉRIQUE ===
+[16:04:29.206] 🔍 Vérification du mode du périphérique...
+[16:04:32.227] ⚠ Périphérique en mode transparent - tentative de basculement...
+[16:04:42.252] ℹ Impossible de passer en mode configuration
+[16:04:42.253] ℹ Utilisation des paramètres par défaut ou précédents
+[16:04:42.253] ✓ Paramètres d'interface utilisés comme source
+[16:04:42.256] ✓ Paramètres d'interface utilisés (mode transparent)
+[16:05:31.652] ✓ Port série fermé
+[16:05:31.653] ✓ Périphérique déconnecté

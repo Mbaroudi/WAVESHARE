@@ -1,0 +1,98 @@
+[13:52:59.822] Tentative de connexion au port: COM3
+[13:53:01.828] ✓ Connexion réussie au port: COM3
+[13:53:26.556] Réinitialisation du périphérique...
+[13:53:28.566] ✓ Périphérique réinitialisé
+[13:53:31.938] Configuration automobile chargée:
+[13:53:31.938]   UART: 115200 bps (optimal automobile)
+[13:53:31.938]   CAN: 500000 bps (standard automobile)
+[13:53:31.938]   Mode: Transparent (performance maximale)
+[13:53:51.178] === TEST OBD-II ===
+[13:53:51.180] Requête OBD-II envoyée: Régime moteur
+[13:53:51.690] Réponse OBD-II reçue: RPM = 1726
+[13:54:07.741] === MONITORING DÉMARRÉ ===
+[13:54:29.016] === TEST ECU ===
+[13:54:29.333] Test ECU terminé: 3 trames envoyées
+[13:54:39.272] === TEST PERFORMANCE ===
+[13:54:40.762] Performance: 100 trames en 1,49 secondes (67,2 Hz)
+[13:54:56.232] === TEST TRAMES ÉTENDUES ===
+[13:54:56.233] Trame étendue envoyée: ID=0x1FFFFFFF
+[13:55:02.296] === TEST AUTOMATIQUE ===
+[13:55:07.387] Test automatique terminé
+[13:55:17.803] === INFORMATIONS PÉRIPHÉRIQUE ===
+[13:55:20.788] === ANALYSE PROTOCOLE ===
+[13:55:22.720] === CONFIGURATION EXPERT ===
+[13:55:24.971] Configuration expert terminée avec succès
+[13:55:31.080] === DIAGNOSTIC SYSTÈME ===
+[14:37:13.750] Application de la configuration:
+[14:37:13.751]   UART: 115200 bps
+[14:37:13.751]   CAN: 500000 bps
+[14:37:13.751]   Mode: Transparent
+[14:37:16.758] ✓ Configuration appliquée avec succès
+[14:37:24.510] Application de la configuration:
+[14:37:24.510]   UART: 115200 bps
+[14:37:24.510]   CAN: 500000 bps
+[14:37:24.510]   Mode: Transparent
+[14:37:27.516] ✓ Configuration appliquée avec succès
+[14:37:37.040] Application de la configuration:
+[14:37:37.041]   UART: 115200 bps
+[14:37:37.041]   CAN: 250000 bps
+[14:37:37.041]   Mode: Transparent
+[14:37:40.046] ✓ Configuration appliquée avec succès
+[14:37:49.577] === MONITORING ARRÊTÉ ===
+[14:37:49.578] Périphérique déconnecté
+[14:37:52.267] Tentative de connexion au port: COM3
+[14:37:54.273] ✓ Connexion réussie au port: COM3
+[14:38:13.536] Périphérique déconnecté
+[14:38:14.891] Actualisation des ports...
+[14:38:14.891] Ports actualisés: 3 ports détectés
+[14:38:16.647] Tentative de connexion au port: /dev/tty.usbserial-1140
+[14:38:18.652] ✓ Connexion réussie au port: /dev/tty.usbserial-1140
+[14:38:25.863] Application de la configuration:
+[14:38:25.864]   UART: 115200 bps
+[14:38:25.864]   CAN: 250000 bps
+[14:38:25.864]   Mode: Transparent
+[14:38:28.869] ✓ Configuration appliquée avec succès
+[14:38:39.494] Affichage monitoring effacé
+[14:38:40.503] === MONITORING DÉMARRÉ ===
+[14:38:50.702] === MONITORING ARRÊTÉ ===
+[14:38:57.368] Trame envoyée: TX: ID=0x123 Data=01 02 03 04 05 06 07 08
+[14:39:05.790] Affichage monitoring effacé
+[14:39:09.593] Trame envoyée: TX: ID=0x123 Data=01 02 03 04 05 06 07 08
+[14:39:52.733] === INFORMATIONS PÉRIPHÉRIQUE ===
+[14:40:04.957] === ANALYSE PROTOCOLE ===
+[14:40:27.278] === CONFIGURATION EXPERT ===
+[14:40:29.530] Configuration expert terminée avec succès
+[14:40:42.022] === DIAGNOSTIC SYSTÈME ===
+[15:42:28.517] Actualisation des ports...
+[15:42:28.526] Port détecté: cu.debug-console - debug-console
+[15:42:28.526] Port détecté: tty.debug-console - debug-console (Dial-In)
+[15:42:28.526] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[15:42:28.526] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[15:42:28.527] Port détecté: cu.usbserial-1120 - USB2.0-Ser!
+[15:42:28.527] Port détecté: tty.usbserial-1120 - USB2.0-Ser! (Dial-In)
+[15:42:28.527] ✓ 6 ports série détectés
+[15:42:45.229] Tentative de connexion au port: tty.usbserial-1120
+[15:42:45.240] 🔍 Test de communication avec le périphérique...
+[15:42:45.279] ✓ Connexion réussie au port: tty.usbserial-1120
+[15:42:45.279] ✓ Configuration: 115200 baud, 8N1
+[15:42:46.749] ⚠ Test communication: The read operation timed out before any data was returned.
+[15:43:27.238] Application de la configuration:
+[15:43:27.240]   UART: 115200 bps
+[15:43:27.240]   CAN: 500000 bps
+[15:43:27.240]   Mode: Transparent
+[15:43:27.241] 📤 Commande envoyée: AT+UART=115200,8,1,0,0
+[15:43:27.345] 📤 Commande envoyée: AT+CAN=500000
+[15:43:27.448] 📤 Commande envoyée: AT+MODE=0
+[15:43:27.553] 📤 Commande envoyée: AT+SAVE
+[15:43:28.059] ✓ Configuration appliquée avec succès
+[15:44:00.531] === DIAGNOSTIC SYSTÈME ===
+[15:44:10.725] === INFORMATIONS PÉRIPHÉRIQUE ===
+[15:44:13.914] === INFORMATIONS PÉRIPHÉRIQUE ===
+[15:47:40.245] ✓ Port série fermé
+[15:47:40.247] ✓ Périphérique déconnecté
+[16:13:52.438] Actualisation des ports...
+[16:13:52.449] Port détecté: cu.debug-console - debug-console
+[16:13:52.450] Port détecté: tty.debug-console - debug-console (Dial-In)
+[16:13:52.450] Port détecté: cu.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port
+[16:13:52.450] Port détecté: tty.Bluetooth-Incoming-Port - Bluetooth-Incoming-Port (Dial-In)
+[16:13:52.450] ✓ 4 ports série détectés

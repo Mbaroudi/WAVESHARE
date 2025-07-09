@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: com.waveshare.cantool.WaveshareCANTool
+Implementation-Title: Waveshare CAN Tool - Executable Edition
+Implementation-Version: 1.0
+Implementation-Vendor: Waveshare CAN Expert
+Created-By: WS-CAN-TOOL Expert
+Application-Name: Waveshare CAN Configuration Tool
+Description: Professional CAN configuration tool with JSON parameter management

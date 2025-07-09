@@ -1,0 +1,197 @@
+{
+  "timestamp": "2025-07-09T00:56:24.173238",
+  "device_port": "/dev/tty.usbserial-1140",
+  "configuration_log": [
+    {
+      "timestamp": "2025-07-09T00:56:07.519532",
+      "action": "Device Detection",
+      "result": true,
+      "details": "Connected to /dev/tty.usbserial-1140"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:08.129820",
+      "action": "Baud Rate Test 9600",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:08.739853",
+      "action": "Baud Rate Test 19200",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:09.350156",
+      "action": "Baud Rate Test 38400",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:09.959357",
+      "action": "Baud Rate Test 57600",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:10.566330",
+      "action": "Baud Rate Test 115200",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:11.175925",
+      "action": "Baud Rate Test 230400",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:11.785699",
+      "action": "Baud Rate Test 460800",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:12.395253",
+      "action": "Baud Rate Test 921600",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:13.005325",
+      "action": "Info Command AT",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:13.615779",
+      "action": "Info Command AT+VER",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:14.226214",
+      "action": "Info Command AT+INFO",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:14.833529",
+      "action": "Info Command AT+STATUS",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:15.443891",
+      "action": "Info Command AT+HELP",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:16.050706",
+      "action": "Info Command AT+UART?",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:16.654297",
+      "action": "Info Command AT+CAN?",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:17.264701",
+      "action": "Info Command AT+WORK?",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:17.870644",
+      "action": "Info Command AT+FILTER?",
+      "result": false,
+      "details": "No response"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:20.297775",
+      "action": "Industrial Configuration",
+      "result": false,
+      "details": "Applied automotive profile"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:20.404719",
+      "action": "Test: test_basic_communication",
+      "result": true,
+      "details": "Sent 4 bytes"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:20.716557",
+      "action": "Test: test_can_frame_transmission",
+      "result": true,
+      "details": "Sent 3/3 frames"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:21.133496",
+      "action": "Test: test_different_data_lengths",
+      "result": true,
+      "details": "Tested 4/4 lengths"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:23.141813",
+      "action": "Test: test_high_frequency_transmission",
+      "result": true,
+      "details": "Sent 166 frames at 83.0 Hz"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:23.141955",
+      "action": "Test: test_extended_frames",
+      "result": true,
+      "details": "Extended ID: 0x1FFFFFFF"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:23.142031",
+      "action": "Test: test_error_handling",
+      "result": true,
+      "details": "Handled 3/3 error cases"
+    },
+    {
+      "timestamp": "2025-07-09T00:56:24.173040",
+      "action": "Test: test_monitoring_capability",
+      "result": true,
+      "details": "Monitoring test completed"
+    }
+  ],
+  "test_results": {
+    "test_basic_communication": {
+      "success": true,
+      "details": "Sent 4 bytes"
+    },
+    "test_can_frame_transmission": {
+      "success": true,
+      "details": "Sent 3/3 frames"
+    },
+    "test_different_data_lengths": {
+      "success": true,
+      "details": "Tested 4/4 lengths"
+    },
+    "test_high_frequency_transmission": {
+      "success": true,
+      "details": "Sent 166 frames at 83.0 Hz"
+    },
+    "test_extended_frames": {
+      "success": true,
+      "details": "Extended ID: 0x1FFFFFFF"
+    },
+    "test_error_handling": {
+      "success": true,
+      "details": "Handled 3/3 error cases"
+    },
+    "test_monitoring_capability": {
+      "success": true,
+      "details": "Monitoring test completed"
+    }
+  },
+  "summary": {
+    "total_tests": 7,
+    "passed": 7,
+    "failed": 0
+  }
+}
